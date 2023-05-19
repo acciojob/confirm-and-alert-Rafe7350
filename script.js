@@ -1,7 +1,8 @@
 //your JS code here. If required.
-var a =conform("Do you want to proceed?");
-if () {
-	alert(“You clicked OK. Proceeding...”);
-}else{
-	alert("You clicked Cancel. Exiting...");
+var confirmation = confirm("Do you want to proceed?");
+
+if (confirmation) {
+  alert("You clicked OK. Proceeding...");
+} else {
+  alert("You clicked Cancel. Exiting...");
 }
